@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+   xmlns:android="http://schemas.android.com/apk/res/android"
+   android:orientation="horizontal"
+   android:layout_width="fill_parent"
+   android:layout_height="42dp"
+   android:gravity="center_vertical"
+   android:paddingLeft="5dip"
+   android:background="@color/titlebackgroundcolor">
+ 
+    <ImageButton
+      android:id="@+id/backButton"
+      android:layout_width="7dp"
+      android:layout_height="14dp"
+      android:layout_alignParentLeft="true"
+      android:layout_centerVertical="true"
+      android:background="@drawable/icon_back" />
+      <!--android:src="@drawable/back"/>-->
+      <ImageView
+            android:id="@+id/button_logo_title"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="2dip"
+            android:layout_toRightOf="@id/backButton"
+            android:background="@drawable/icon_logo" />
+      
+     <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="right|center_vertical"
+        android:paddingRight="5dip"
+        android:background="@color/titlebackgroundcolor">
+        <TextView
+           android:id="@+id/myTitle"
+           android:text="English For Kids"
+           android:layout_width="fill_parent"
+           android:layout_height="fill_parent"
+           android:layout_centerVertical="true"
+           android:layout_centerHorizontal="true"
+           android:gravity ="center"
+           android:textSize="23dp"
+           android:textColor="@color/titletextcolor"/>
+    </LinearLayout>
+ </LinearLayout>
+

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="flurry">YOUR_FLURRY_ID</string>     
+    <string name="admob_id">YOUR_ADMOB_ID</string>
+    <integer name="swarm_app_id">10196</integer>    
+    <string name="swarm_app_key">YOUR_SWARM_ID</string>
+    <integer name="swarm_leaderboard_id">14676</integer>  
+        
+</resources>

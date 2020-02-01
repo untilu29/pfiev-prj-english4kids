@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">English for kids</string>
+    
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_topicpage"> Topics</string>
+    <string name="title_activity_wordpage"> Words</string>
+    <string name="title_activity_dialogpage">\"\"</string>
+    <string name="title_activity_videoview">video</string>
+    <string name="title_activity_youtube_player">youtube_player</string>
+    <string name="title_activity_game_page">Game Page</string>
+    <string name="error_player">There was an error initializing the YouTubePlayer (%1$s)</string>
+    <string name="title_activity_check_game">CheckGameActivity</string>
+    <string name="title_activity_letter_game">LetterGameActivity</string>
+    
+    
+    <!-- Categories Activity -->
+    <string name="category_top_title">CATEGORIES</string>
+    
+    <!-- Levels Screen -->
+    <string name="level_item_title">LEVEL</string>
+    <string name="level_item_score_title">SCORE</string>
+    <string name="level_item_words_title">WORDS</string>
+    
+    <!-- Play Screen -->
+    <string name="play_summary_button_next">NEXT</string>
+    <string name="play_summary_button_back">BACK</string>
+    <string name="play_summary_item_score_title">SCORE</string>
+    <string name="play_summary_score">SCORE</string>
+    <string name="play_summary_coins">COINS</string>
+    
+    <!-- PUPUP WINDOW -->    
+    <string name="popup_layout_close">CLOSE</string>    
+    <string name="helpers_layout_title">HELPERS</string>
+    <string name="helpers_reveal_letter_title">REVEAL A LETTER</string>
+    <string name="helpers_remove_letter_title">REMOVE A LETTER</string>
+    <string name="helpers_share_title">SHARE VIA</string>
+    <string name="helpers_facebook_title">ASK ON FACEBOOK</string>
+    <string name="helpers_twitter_title">ASK ON TWITTER</string>
+    
+    <string name="getcoins_layout_title">GET COINS</string>
+    <string name="getcoins_750_coins_title">750 COINS + REMOVE ADS</string>
+    <string name="getcoins_750_coins_val">0.99</string>
+    <string name="getcoins_2000_coins_title">2000 COINS</string>
+    <string name="getcoins_2000_coins_val">1.99</string>
+    <string name="getcoins_5000_coins_title">5000 COINS</string>
+    <string name="getcoins_5000_coins_val">3.99</string>
+    <string name="getcoins_15000_coins_title">15000 COINS</string>
+    <string name="getcoins_15000_coins_val">7.99</string>
+    <string name="getcoins_download_coins_title">DOWNLOAD A FREE GAME</string>
+    <string name="getcoins_download_coins_subtitle">FREE 250 COINS</string>
+    
+    <string name="share_all_title">SHARE FOR HELP!</string>    
+    <string name="share_layout_title">SHARE</string>
+    <string name="share_200_coins_title">GET 200 COINS</string>
+    <string name="share_100_coins_title">GET 100 COINS</string>
+    
+    <string name="settings_layout_title">SETTING</string>
+    <string name="settings_sound_off_title">TURN SOUND OFF</string>
+    <string name="settings_sound_on_title">TURN SOUND ON</string>
+    <string name="share_reset_data_title">RESET DATA</string>
+    <string name="settings_quote_on_title">SHOW QUOTE ON</string>
+    <string name="settings_quote_off_title">SHOW QUOTE OFF</string>
+    <string name="share_rate_me_title">RATE ME!!!</string>    
+    
+    <!-- Dialog window -->
+    <string name="dialog_button_OK">OK</string>
+    <string name="dialog_message_no_coins">Insufficient coins! Please purchase more coins to use this option!!!</string>
+    
+    <string name="share_facebook_subject">Can you guess the word?</string>
+    <string name="share_facebook_text" formatted="false">I found this great game! You should try it out: </string>
+    <string name="share_facebook_text_sub" formatted="false">($1%s letters) Possible letters: $2%s Join the puzzle fun on Android!</string>
+    <string name="share_twitter_text">Please help :) </string>
+    <string name="share_twitter_text_sub">I found this great game! You should try it out:</string>
+    
+   <!-- SUCCESS MESSAGE -->
+     <string-array name="success_message">
+	    <item>Awesome!</item>
+	    <item>Great Job!</item>
+	    <item>Well Done!</item>
+	    <item>Super!</item>	    
+	</string-array>
+	<string-array name="success_submessage">
+	    <item>What a genius!</item>
+	    <item>You\'re great!</item>
+	    <item>On a roll!</item>
+	    <item>You da boss!</item>
+	    <item>You are awesome!</item>
+	    <item>Great job!</item>    
+	</string-array>
+
+</resources>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.english4kids"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="22" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon_logo"
+        android:label="@string/app_name"
+        android:theme="@style/customTheme" >
+        <activity
+            android:name=".MainMenuActivity"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Black.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".TopicpageActivity"
+            android:label="@string/title_activity_topicpage" >
+            
+        </activity>
+        <activity
+            android:name=".WordpageActivity"
+            android:label="@string/title_activity_wordpage" >
+        </activity>
+        <activity
+            android:name=".DialogpageActivity"
+            android:label="@string/title_activity_dialogpage" >
+        </activity>
+        <activity
+            android:name=".YoutubePlayerActivity"
+            android:label="@string/title_activity_youtube_player"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".GamepageActivity"
+            android:label="@string/title_activity_game_page"
+            android:screenOrientation="portrait" >
+
+            <!-- android:label="@string/title_activity_check_game" -->
+
+        </activity>
+       <!--<activity
+            android:name=".LetterGameActivity"
+            android:label="@string/title_activity_letter_game" >
+        </activity>-->
+         <activity
+            android:name=".TrueFalseGameActivity"
+             android:screenOrientation="landscape" 
+            >
+        </activity>
+    </application>
+
+</manifest>
